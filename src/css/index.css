@@ -76,3 +76,46 @@ body, html {
 .header-main .main-list-item a:hover {
 	color: #f80000;
 }
+
+/*// Banner*/
+
+.banner {
+	background-image: url("../image/dragon-ball-by-qlochuko-other.jpg");
+	background-repeat: no-repeat;
+	background-position: right center;
+	max-height: 500px;
+	position: relative;
+}
+
+
+.banner-bg {
+	background-image: url("../image/over-hero-banner.png");
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+.banner-text {
+	position: absolute;
+	color: #ffffff;
+	top: 0px;
+	bottom: 0;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.banner-text-contentButtons {
+	display: flex;
+	margin-left: 75px;
+}
+
+.banner-text-contentLinks{
+	display: flex;
+	margin-left: 75px;
+}
+
+.banner-text-contentLinks a:nth-child(2) {
+	margin-left: 100px;
+	color: #ffffff;
+}
