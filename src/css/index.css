@@ -143,3 +143,40 @@ body, html {
 	font-size: 1.25em;
 	
 }
+/*// ERP Cloud */
+
+.erpCloud {
+	display: flex;
+}
+.erpCloud-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 10px;
+}
+.erpCloud-text-title {
+	font-size: 1.75em;
+}
+.erpCloud-text-list {
+	list-style: none;
+}
+
+.erpCloud-text-list .item {
+	margin: 0 0 20px;
+
+}
+.erpCloud-textcontentButtons {
+	display: flex;
+	justify-content: center;
+}
+.erpCloud-textcontentButtons .button {
+	padding: 18px 61px;
+	margin: 10px;
+	border: 1px solid #006699;
+	color: #006699;
+	background-color: transparent;
+}
+.erpCloud-textcontentButtons .button:hover {
+	border: 1px solid black;
+	color: black;
+}
