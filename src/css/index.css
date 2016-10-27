@@ -180,3 +180,45 @@ body, html {
 	border: 1px solid black;
 	color: black;
 }
+/* PLANNING */
+
+
+.planning{
+    background-color: #fafafa;
+    padding: 60px 30px;
+
+}
+.planning-content{
+    display: flex;
+}
+
+.planning-content-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.planning-content-text .contentButtons{
+    display: flex;
+    justify-content: center;
+}
+
+.planning-content-text .contentButtons-button{
+    padding: 18px 61px;
+    margin: 10px;
+    border: 1px solid #006699;
+    color:#006699;
+    background:transparent;
+
+}
+
+.contentButtons .contentButtons-button:hover{
+    border: 1px solid black;
+    color:black;
+
+}
+
+.planning-content .card{
+    display: flex;
+
+}
