@@ -212,13 +212,43 @@ body, html {
 
 }
 
-.contentButtons .contentButtons-button:hover{
+.contentButtons .contentButtons-button: hover{
     border: 1px solid black;
     color:black;
 
 }
-
 .planning-content .card{
     display: flex;
+}
+/*Customers*/
+.customers-contentImage .customers-img{
+	width: 28%;
+}
+/*Footer*/
+.footer{
 
+}
+.footer-contentCols{
+	display: flex;
+	justify-content: space-between;
+	background-color: #fafafa;
+}
+.footer-contentCols-col{
+	padding: 0 30px 50px;
+}
+.footer-contentCols-col .title {
+	color: #1f4f82;
+	margin-bottom: 30px;
+}
+.footer-contentCols-col .list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.footer-contentCols-col .list-item {
+	margin: 0 0 15px;
+}
+.footer-contentCols-col .list-item-link {
+	text-decoration: none;
+	font-size: 0.88em;
 }
