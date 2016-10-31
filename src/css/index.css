@@ -5,6 +5,11 @@ body, html {
 	font-family: arial;
 }
 
+/*Utilities*/
+.u-container{
+	max-width: 1245px;
+	margin: 0 auto;
+}
 /*// Header*/
 
 .header {
