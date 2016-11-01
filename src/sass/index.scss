@@ -71,3 +71,72 @@ body, html {
 		}
 	}
 }
+
+/*// Banner*/
+
+.banner {
+	background-image: url("../../src/image/dragon-ball-by-qlochuko-other.jpg");
+	background-repeat: no-repeat;
+	background-position: right center;
+	max-height: 500px;
+	position: relative;
+	&-bg {
+		background-image: url("../../src/image/over-hero-banner.png");
+		background-repeat: no-repeat;
+		height: 500px;
+	}
+	&-text {
+		position: absolute;
+		color: #ffffff;
+		top: 0px;
+		bottom: 0;
+		width: 500px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 60px;
+		&-title {
+			font-size: 2.12em;
+			margin: 0;
+		}
+		&-text {
+			font-size: 1.12em;
+		}
+		&-contentButtons {
+			display: flex;
+			.button {
+				margin-right: 8px;
+				padding: 18px 61px;
+				color: #006699;
+				font-size:  1.06em;
+				span {
+					font-size: 1.3em;
+					margin-left: 25px;
+					position: relative;
+					top: 3px;
+				}
+			}
+		}
+		&-contentLinks {
+			display: flex;
+			.iconOne {
+				position: relative;
+				font-size: 1.3em;
+				top: 45px;
+				right: 70px;
+			}
+			.iconTwo {
+				position: relative;
+				font-size: 1.3em;
+				top: 45px;
+				right: 150px;
+			}
+			.link{
+				margin-right:8px;
+				padding: 18px 4px;
+				color:white;
+				font-size: 1.25em;				
+			}
+		}
+	}
+}
