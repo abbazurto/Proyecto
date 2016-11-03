@@ -140,3 +140,93 @@ body, html {
 		}
 	}
 }
+
+/* ERP CLOUD */
+
+.erpCloud {
+	display: flex;
+	justify-content: center;
+	&-text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		&-title {
+			font-size: 1.75em;
+		}
+		&-list {
+			list-style: none;
+			.item {
+				margin: 0 0 20px;
+			}
+		}
+		&-contentButtons {
+			display: flex;
+			justify-content: center;
+			span{
+				font-size: 1.3em;
+				margin-left: 25px;
+				position: relative;
+				top: 3px;
+			}
+			.button{
+				padding: 18px 30px;
+				margin: 10px;
+				border: 1px solid #006699;
+				color: #006699;
+				background: transparent;
+				min-width: 250px;
+				&:hover{
+					border: 1px solid black;
+					color: black;
+				}
+			}	
+		}
+	}
+}
+
+/* CUSTOMERS */
+
+.customers{
+	&-title{
+		text-align: center;
+		font-size: 1.50em;
+	}
+	&-contentImages{
+		display: flex;
+		justify-content: space-around;
+		img {
+			max-width: 190px;
+			max-height: 190px;
+
+		}
+	}
+}
+
+/* CARDS */
+
+.content-cards{
+	margin: 50px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.card {
+	display: flex;
+	border: 1px solid #eee;
+	width: 48%;
+	img{
+	height: 100%;	
+	}
+	&-text{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 0 50px;
+		&-text{
+			margin: 0 0 5px;
+			font-size: 0.88em;
+		}
+		&-link{
+			font-size: 0.88em;
+		}
+	}
+}
