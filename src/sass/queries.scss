@@ -1,0 +1,42 @@
+@media screen and (max-width: 1146px) {
+	.erpCloud {
+		flex-direction: column;
+		&-img {
+			text-align: center;
+		}
+		&-text {
+			width: 55%;
+			margin: 0 auto;
+		}
+	}
+
+	.planning {
+		overflow: hidden;
+	}	
+
+}
+
+@media screen and (max-width: 832px) {
+	.card {
+		&-img{
+			img{
+				max-width: 126px;
+			}
+		}
+		&-text {
+			padding: 0 25px;
+		}
+	}
+	.planning {
+		&-content{
+			flex-direction: column;
+			&-text {
+				width: 55%;
+				margin: 0 auto;
+			}
+			&-img {
+				text-align: center;
+			}
+		}
+	}
+}
